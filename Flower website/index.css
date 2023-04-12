@@ -1,0 +1,574 @@
+html, body{
+    height: 100%;
+    margin: 0%;
+}
+
+.container{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.header{
+    width: 100%;
+    height: 12%;
+    background-color: whitesmoke;
+    display: flex;
+}
+.logo{
+    width: 18%;
+    height: 100%;
+}
+#imglogo{
+    display: flex;
+    height: 100%;
+}
+.contents 
+{
+    color: rgb(62, 60, 61);
+    width: 70%;
+    height: 30px;
+    margin-top: 35px;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 18px;
+    margin-right: 110px;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    width: 12%;
+    height: 30px;
+    margin-top: 35px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+.box1{
+    width: 100%;
+    height: auto;
+    height: 85%;
+    background-color: lightcoral;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://img.freepik.com/premium-photo/pink-rose-flowers-bouquet-white-wooden-background-beautiful-flowers_107210-167.jpg?w=2000");
+}
+.content{
+    padding-top: 250px;
+    padding-left: 350px;
+    line-height: 0.6px;
+    
+}
+.line1{
+    font-family:Brush Script MT;
+    font-weight: lighter;
+    font-size: 120px;
+    margin: 5%;
+    color: crimson;
+}
+.line2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-left: 85px;
+    color: crimson;
+}
+
+
+.box2{
+    width: 100%;
+    height: 115%;
+    background-color: hwb(42 67% 2%);
+}
+.b1{
+    display: flex;
+    
+}
+.box21{
+    margin-top: 100px;
+    margin-left: 10%;
+    width: 40%;
+    height: 120px;
+    line-height: 0.5%;
+}
+.whatwe{
+    font-family:Brush Script MT;
+    font-size: 50px;
+    margin-bottom: -19px;
+    color: rgb(255, 162, 0);
+}
+.do{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(38, 37, 37);
+}
+.box22{
+    margin-top: 100px;
+    text-align: justify;
+    margin-right: 10%;
+    width: 40%;
+    height: 120px;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.b2{
+    margin-top: 30px;
+    display: flex; 
+}
+.box23{
+    margin-bottom: 100px;
+    margin-left: 152px;
+    width: 20%;
+    height: 330px;
+    background-size: 100% 100%;
+    background-image: url("https://raflorist.imgix.net/images/itemVariation/T48-3A-18103063031.jpg?auto=format&w=375&h=450&fit=crop");
+}
+.bouquets{
+    width: 200px;
+    height: 50px;
+    background-color: whitesmoke; 
+    margin-top: 300px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 30px;
+    opacity: 0.8;
+    border-color: black;
+    border-style: groove;
+}
+.box24{
+    margin-bottom: 100px;
+    margin-left: 150px;
+    width: 20%;
+    height: 330px;
+    background-size: 100% 100%;
+    background-image: url("https://i.pinimg.com/736x/cf/c7/a9/cfc7a9d1bfe95086ad45528ba8add59c.jpg");
+}
+.arrangements{
+    width: 200px;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-top: 300px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 30px;
+    opacity: 0.8;
+    border-color: black;
+    border-style: groove;
+}
+.box25{
+    margin-bottom: 100px;
+    margin-left: 154px;
+    width: 20%;
+    height: 330px;
+    background-size: 100% 100%;
+    background-image: url("https://www.elen.in/wp-content/uploads/2020/11/1-10.jpg");
+}
+.indoorplants{
+    width: 200px;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-top: 300px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 30px;
+    opacity: 0.8;
+    border-color: black;
+    border-style: groove;
+}
+.b3{
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 60px;
+}
+.button1{
+    height: 45px;
+    text-align: center;
+    border-radius: 100px 100px ;
+    color: white;
+    background-color: crimson;
+    border-color: transparent;
+    font-size: 16px;
+    padding: 5px 24px;
+    cursor: pointer;
+}
+.box3{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 238, 0.829);
+    display: flex;
+    line-height: 0.5%;  
+}
+.readour{
+    margin-top: 145px;
+    font-family:Brush Script MT;
+    font-size: 50px;
+    margin-bottom: -19px;
+    color: rgb(255, 162, 0);
+}
+.story{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(38, 37, 37);
+}
+.ourstory{
+    height: 100%;
+    width: 45%;
+    margin-left: -31px;
+    padding-left: 110px;
+}
+.para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 35px;
+    margin-right: 170px;
+    font-size: large;
+    justify-content: center;
+}
+.image{
+    height: 100%;
+    width: 55%;
+    background-size: cover;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5f217c0302fac14005158da1/54213497-8be6-408d-ac58-5347dc0e5bd6/victorian.jpg");
+}
+.box4{
+    width: 100%;
+    height: 250%;
+    background-color: rgb(183, 240, 253);
+    line-height: 0.5%;
+    padding-bottom: 300px;
+}
+.head{
+    height: 10%;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.seeour{
+    font-family:Brush Script MT;
+    font-size: 50px;
+    margin-bottom: -16px;
+    margin-top: 0%;
+    color: rgb(255, 162, 0);
+}
+.works{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(38, 37, 37);
+}
+.workimg{
+    margin-top: -80px;
+    width: 90%;
+    height: 87%;
+    margin: 5%;
+    margin-top: -2%;
+    margin-bottom: 5%;
+    line-height: 12px;
+}
+.div1{
+    margin-left: 60px;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 12px;
+    display: flex;
+}
+.div11{
+    width: 22%;
+    height: 100%;
+    background-image: url("https://imgcdn.floweraura.com/Flower-05-A.jpg?tr=w-264,dpr-1.5,q-70");
+    background-size: 100% 100%;
+    margin-right: 15px;
+}
+.div12{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://imgcdn.floweraura.com/red-n-pink-rose-arrangement-a.jpg?tr=w-264,dpr-1.5,q-70");
+    margin-right: 15px;
+}
+.div13{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://imgcdn.floweraura.com/alluring-classic-floral-basket-9863330fl-B_0.jpg?tr=w-264,dpr-1.5,q-70");
+    margin-right: 15px;
+}
+.div14{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0583/0446/2907/products/S5286S_LOL_preset_mol-mx-tile-wide-sv-new_6b8bb273-532f-476d-b6fc-e9ed38fdf2cc_360x.jpg?v=1660203891");
+    margin-right: 15px;
+}
+.div2{
+    margin-left: 60px;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 12px;
+    display: flex;
+}
+.div21{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0583/0446/2907/products/E5436S_LOL_preset_mol-mx-tile-wide-sv-new_360x.jpg?v=1660176655");
+    margin-right: 15px;
+}
+.div22{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0583/0446/2907/products/CGPS_LOL_preset_mol-mx-tile-wide-sv-new_360x.jpg?v=1660183864");
+    margin-right: 15px;
+}
+.div23{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://imgcdn.floweraura.com/IMG_0729_0.jpg?tr=w-264,dpr-1.5,q-70");
+    margin-right: 15px;
+}
+.div24{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://imgcdn.floweraura.com/FA-4-A.jpg?tr=w-264,dpr-1.5,q-70");
+    margin-right: 15px;
+}
+.div3{
+    margin-left: 60px;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 12px;
+    display: flex;
+}
+.div31{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0507/3754/5401/t/1/assets/P4102_LOL_preset_ftd-mx-tile-wide-lv-new.jpeg?v=1630102272");
+    margin-right: 15px;
+}
+.div32{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://imgcdn.floweraura.com/magnificence-mania-9971720fl-A.jpg?tr=w-264,dpr-1.5,q-70");
+    margin-right: 15px;
+}
+.div33{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0507/3754/5401/t/1/assets/P4022BB_LOL_preset_ftd-mx-tile-wide-lv-new.jpeg?v=1657823396");
+    margin-right: 15px;
+}
+.div34{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0507/3754/5401/t/1/assets/P1457_LOL_preset_ftd-mx-tile-wide-lv-new.jpeg?v=1618350809");
+    margin-right: 15px;
+}
+.div4{
+    margin-left: 60px;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 12px;
+    display: flex;
+}
+.div41{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://imgcdn.floweraura.com/NWRS003.jpg?tr=w-264,dpr-1.5,q-70");
+    margin-right: 15px;
+}
+.div42{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0507/3754/5401/t/1/assets/P4032_LOL_preset_ftd-mx-tile-wide-lv-new.jpeg?v=1639605909");
+    margin-right: 15px;
+}
+.div43{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0507/3754/5401/t/1/assets/P4183_LOL_preset_ftd-mx-tile-wide-lv-new.jpeg?v=1659385911");
+    margin-right: 15px;
+}
+.div44{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0507/3754/5401/t/1/assets/C27-4527_LOL_preset_ftd-mx-tile-wide-lv-new.jpeg?v=1634310421");
+    margin-right: 15px;
+}
+.div5{
+    margin-left: 60px;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 12px;
+    display: flex;
+}
+.div51{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://imgcdn.floweraura.com/FA-12_A.jpg?tr=w-264,dpr-1.5,q-70");
+    margin-right: 15px;
+}
+.div52{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0583/0446/2907/products/W45-4736_LOL_preset_mol-mx-tile-wide-sv-new_6e347866-130a-4ead-8eec-0be12d0ff9c0_360x.jpg?v=1659040286");
+    margin-right: 15px;
+}
+.div53{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0583/0446/2907/products/E5435S_LOL_preset_mol-mx-tile-wide-sv-new_360x.jpg?v=1660205992");
+    margin-right: 15px;
+}
+.div54{
+    width: 22%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://imgcdn.floweraura.com/IMG_9710_0.JPG?tr=w-264,dpr-1.5,q-70");
+    margin-right: 15px;
+}
+.button2{
+    margin-left: 680px;
+    text-align: center;
+    padding-top: 54px;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+}
+#button2{
+    height: 45px;
+    text-align: center;
+    border-radius: 100px 100px ;
+    color: white;
+    background-color: crimson;
+    border-color: transparent;
+    font-size: 16px;
+    padding: 5px 24px; 
+    width: 170px;
+    cursor: pointer;
+}
+.box5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.getintouch{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("");
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 210, 195);
+    line-height: 0.6%;
+    margin-bottom: 80px;
+}
+.getin{
+    font-family:Brush Script MT;
+    font-size: 50px;
+    color: rgb(255, 162, 0);
+    margin-left: 10%;
+    margin-bottom: -8px;
+    margin-top: 90px
+}
+.touch{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(38, 37, 37);
+    margin-left: 10%;
+}
+table{
+    margin-left: 80px;
+    line-height: 40px;
+    word-spacing: 1px;
+    width: 100%;
+}
+.i{
+    display: flex;
+    width: 40%;
+    height: 45px;
+    margin-top: 15px;
+    margin-left: 60px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.form{
+    width: 100%;
+    margin-left: 11%;
+    margin-top: 5%;
+    line-height: 10px;
+}
+.name{
+    margin-left: 160px;
+}
+.email{
+    margin-left: 165px;
+}
+.subject{
+    margin-left: 152px;
+}
+.message{
+    margin-left: 144px;
+}
+.submit{
+    margin-left: 280px;
+}
+.button{
+    border-radius: 100px 100px ;
+    color: white;
+    background-color: crimson;
+    border-color: transparent;
+    font-size: 16px;
+    padding: 5px 24px;
+    cursor: pointer;
+}
+#location{
+    width: 20px;
+    height: 20px;
+    margin-left: 10%;   
+}
+#phone{
+    width: 20px;
+    height: 20px;
+    margin-left: 10%;   
+}
+#ph{
+    word-spacing: 20px;
+}
+.img{
+    height: 100%;
+    width: 50%;
+    background-size: 100% 100%;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/57451c424c2f85ae9b18f48d/1519056022010-9OX90BO6QFXQWWWKND6R/IMG_20170708_125223_058.jpg?format=1000w");
+}
+
+
+.footer{
+    padding-top: 50px;
+    width: 100%;
+    height: 8%;
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}

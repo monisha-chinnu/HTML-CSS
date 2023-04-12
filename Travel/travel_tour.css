@@ -1,0 +1,299 @@
+body{
+    margin: 0%;
+}
+.box{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.div1{
+    background-image: url("./coast-g2aec643f1_1920.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%; 
+    color: aliceblue;
+    font-family: 'Montserrat',sans-serif;
+    background-color:  #040219;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.head{ 
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 170px;
+    padding-right: 60px;
+    font-size: large;
+    font-weight: bolder;
+}
+.navbar{
+    margin-right: 250px;
+    float: right;
+    justify-content: space-between;
+    text-align: right;
+    word-spacing: 25px;
+    width: 100%;      
+}
+.section{
+    text-align: center;
+    padding-top: 200px;
+}
+.mainhead{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mainhead2{
+   font-weight: bolder;
+   font-size: 55px;
+}
+#font{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+ul{
+    justify-content: space-between;
+}
+.hrdiv1{
+    border-top: 1px solid #249cf9;
+    border-color: #249cf9;
+    width: 80px;
+    text-align: center;
+}
+.button1{
+    margin-top: 50px;
+}
+
+.div2{
+    background-color: whitesmoke;
+    width:100%;
+    height:100%; 
+    font-family: 'Montserrat',sans-serif;
+    display: flexbox;
+}
+.hrdiv2{
+    border-top: 2px solid #0772c3;
+    border-color: #0572c6;
+    width: 80px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.imgdiv{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 100px;
+}
+.subdiv{
+    width: 100%;
+    height: 100%;   
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    padding: 250px;
+    justify-content: space-between;
+}
+.imgdiv1{
+    display: inline-block;
+    width: 450px;
+    height: 50%;
+    
+}
+.imgsrc1{
+    display: inline-block;
+    padding-right: 170px;
+    
+}
+.imgcontent2{
+    text-align: center;
+}
+.imgdiv2{
+    display: inline-block;
+    width: 450px;
+    height: 50%;
+}
+.imgsrc2{
+    display: inline-block;
+    padding-left: 100px;
+
+}
+.imgcontent2{
+    text-align: center;
+
+}
+.div3{
+    background-image: url("./hot-air-balloon-gf4614834a_1280-min.jpg");
+    width:100%;
+    height:100%; 
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 120px;
+}
+.hrdiv3{
+    border-top: 1.5px solid #249cf9;
+    border-color: #249cf9;
+    width: 100px;
+    padding-right :10;
+    margin-right: 990px;
+}
+.content{
+    color: aliceblue;
+    width: 87%;
+    justify-content: left;
+    font-size: larger;
+    margin-top: -100px;
+    justify-content: space-around;  
+}
+.buttondiv3{
+    margin-right: 970px;
+}
+.div3h1{
+    justify-content: left;
+    margin-right: 400px;
+}
+.parag{
+    text-justify: distribute;
+    justify-content: space-between;
+    padding-top: 120px;
+    line-height: 30px;
+    padding-left: 100px;
+    text-align: justify;
+    margin-left: 100;
+}
+
+
+.div4{
+    background-color: white;
+    width:100%; 
+    height:80%; 
+    font-family: 'Montserrat',sans-serif;
+}
+.sentence1{
+    text-align: center;
+    padding-top: 25px;
+}
+.hrsent1{
+    width: 60px;
+    border-top: 5px solid #8c8b8b;
+    opacity: 0.7;
+}
+.sentence2{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+.box1{
+    display: inline-block;
+    width: 20%;
+    border-style: groove ;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.box2{
+    display: inline-block;
+    width: 20%;
+    border-style: groove;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.box3{
+    display: inline-block;
+    width: 20%;
+    border-style: groove;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.box4{
+    display: inline-block;
+    width: 20%;
+    border-style: groove;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+
+.div5{
+    background-color: #1a1a1a;
+    width:100%;
+    height:40%; 
+    color: white; 
+    padding-top: 25px;
+    font-family: 'Montserrat',sans-serif;  
+    flex-wrap: nowrap;
+}
+.Inside{
+    padding-left: 60px;
+}
+hr{
+    display: inline-block;
+    
+}
+#inline1{
+    display: inline-block;
+    margin-right: 184px;
+}
+#inline2{
+    display: inline-block;
+    margin-right: 200px;
+}
+td{
+    color: white;
+}
+#id{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+}
+.hrinline1{
+    color: bisque;
+    width: 60%;
+    opacity: 0.4;
+    margin-right: 265px;
+}
+.hrinline2{
+    color: bisque;
+    width: 60%;
+    opacity: 0.4;
+    margin-right: 240px;
+}
+
+#icon{
+    justify-content: space-around;
+    line-height: 50px;
+    
+}
+
+
+.div6{
+    background-color: #0d0d0d;
+    width:100%;
+    padding-top: 30px;
+    height:50px;
+    color: white; 
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+}
+h3{
+    padding-top: 0%;
+}
+
